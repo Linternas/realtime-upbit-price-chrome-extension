@@ -1,0 +1,145 @@
+.coin-table-container {
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.btn-settings {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.setting-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 4px;
+}
+.coin-table-container table {
+  width: 100%;
+}
+.coin-table-container .rise {
+  color: #d24f45;
+}
+.coin-table-container .even {
+  color: #000000;
+}
+.coin-table-container .fall {
+  color: #1261c4;
+}
+.coin-table-container tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+.coin-table-container .favorite-btn {
+  cursor: pointer;
+}
+.coin-table-container .name {
+  width: 26%;
+}
+.coin-table-container .name strong {
+  display: block;
+  min-height: 12px;
+  margin-bottom: 4px;
+  line-height: 12px;
+  color: #27282a;
+  font-size: 12px;
+  font-weight: 500;
+  word-break: break-all;
+}
+.coin-table-container .name em {
+  display: block;
+  line-height: 16px;
+  color: #333;
+  font-size: 10px;
+}
+.coin-table-container .price {
+  width: 28%;
+  text-align: right;
+}
+.coin-table-container .price strong {
+  display: block;
+  height: 12px;
+  margin-bottom: 4px;
+  line-height: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.coin-table-container .percent {
+  width: 18%;
+  text-align: right;
+}
+.coin-table-container .percent p {
+  height: 12px;
+  line-height: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.coin-table-container .percent em {
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+}
+.coin-table-container .tradecost {
+  width: 25%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 12px;
+}
+.coin-table-container .tradecost p {
+  height: 12px;
+  line-height: 12px;
+  color: #333;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.coin-table-container .tradecost i {
+  color: #999;
+  font-size: 0.56em;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search-container span {
+  border-bottom: 2px solid #093687;
+}
+
+.search {
+  box-sizing: border-box;
+  width: 100%;
+  height: 20px;
+  margin: 10px 0;
+  padding: 0 30px 0 10px;
+  border: 0;
+  line-height: 20px;
+  color: #093687;
+  font-size: 15px;
+}
+
+.search::placeholder {
+}
+
+.search:focus {
+  outline: none;
+}
+
+.btn-favorite-on {
+  /* margin-top: 10px; */
+  color: #000000ca;
+  font-size: 12px;
+  cursor: pointer;
+  width: fit-content;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
