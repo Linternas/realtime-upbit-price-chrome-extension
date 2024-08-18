@@ -95,3 +95,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true;
   }
 });
+
+chrome.commands.onCommand.addListener((command) => {
+  console.log(`Command "${command}" triggered`);
+
+  chrome.action.openPopup();
+});
