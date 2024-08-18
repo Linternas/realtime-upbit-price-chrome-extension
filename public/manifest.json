@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "RT Upbit price",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "real-time upbit coin price",
   "action": {
     "default_popup": "index.html"
@@ -13,5 +13,16 @@
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+E",
+        "mac": "Command+E"
+      }
+    }
+  },
+  "icons": {
+    "128": "icons/icon128.png"
   }
 }
